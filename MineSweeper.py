@@ -126,7 +126,7 @@ while True:
             x = i * 26 + 10
             y = j * 26 + 10
             # 这里要判断是否要显示数值
-            #if show_list[i][j] == 1:
+            # if show_list[i][j] == 1:
             #    textImage = myfont.render(str(block_list[i][j]), True, [0, 0, 0])
             #    screen.blit(textImage, (x + 2, y + 2))
             textImage = myfont.render(str(block_list[i][j]), True, [0, 0, 0])
